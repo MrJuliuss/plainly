@@ -1,0 +1,11 @@
+<nav>
+    <ul class="pager">
+        <li class="previous {{#unless prev}}disabled{{/unless}}">
+            <a href="{{page_url prev}}" {{#unless prev}}onclick="return false;"{{/unless}}><span aria-hidden="true">&larr;</span> Older</a>
+        </li>
+        <li class="page-number">Page {{page}} of {{pages}}</li>
+        <li class="next {{#unless next}}disabled{{/unless}}" {{#unless next}}onclick="return false;"{{/unless}}>
+            <a href="{{page_url next}}">Newer <span aria-hidden="true">&rarr;</span></a>
+        </li>
+    </ul>
+</nav>
