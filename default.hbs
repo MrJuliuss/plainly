@@ -34,12 +34,13 @@
         {{ghost_head}}
     </head>
     <body>
-        {{> header}}
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 centered">
-                    {{{body}}}
+        <div id="wrap">
+            {{> header}}
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 centered">
+                        {{{body}}}
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,7 +51,7 @@
 
         {{ghost_foot}}
 
-        <!--  Add Google analytics here-->
+        <!--  Analytics-->
 
         <!-- Disqus -->
         <script type="text/javascript">
