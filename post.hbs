@@ -14,6 +14,10 @@
 
             <section class="posts">
                 {{content}}
+
+                <a href="https://twitter.com/share?text={{{title}}}" class="popup fa fa-twitter btn btn-info"></a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{@blog.url}}{{url}}" class="popup fa fa-facebook btn btn-primary"></a>
+                <a href="https://plus.google.com/share?url={{@blog.url}}{{url}}" class="popup fa fa-google btn btn-danger"></a>
             </section>
         {{/post}}
 
