@@ -40,6 +40,18 @@ code,
     text-align: left;
 }
 
+.posts {
+    margin-top: 20px;
+}
+
+.posts .social-buttons {
+    margin: 20px 0;
+}
+
+.posts .social-buttons a {
+    margin-right: 5px;
+}
+
 .centered {
     text-align: center;
 }
