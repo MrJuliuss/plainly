@@ -2,6 +2,8 @@
 
 A bootstrap 3 theme for Ghost
 
+[Demo](http://mrjuliuss.net)
+
 <img src="https://raw.github.com/MrJuliuss/plainly/master/screenshot.png" width="900" />
 
 ### Options
