@@ -43,6 +43,13 @@ code,
     margin-top: 20px;
 }
 
+.post h1, 
+.post h2,
+.post h3,
+.post h4 {
+    margin-top: 20px;
+}
+
 .posts .social-buttons {
     margin: 20px 0;
 }
