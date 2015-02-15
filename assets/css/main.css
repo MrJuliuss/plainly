@@ -58,6 +58,11 @@ code,
     margin-right: 5px;
 }
 
+.post img {
+    display: block;
+    margin: auto;
+}
+
 .centered {
     text-align: center;
 }
