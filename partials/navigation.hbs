@@ -10,8 +10,10 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
+                {{#foreach navigation}}
+                    <li><a href="{{url absolute="true"}}">{{label}}</a></li>
+                {{/foreach}}
+
                 <li><a href="http://github.com/GITHUB" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
                 <li><a href="http://twitter.com/TWITTER" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
                 <!--<li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></li>-->
