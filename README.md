@@ -10,7 +10,7 @@ A bootstrap 3 theme for Ghost
 
 #### Navbar
 
-Edit `partials/header.hbs` with your own links & socials accounts.
+Edit `partials/navigation.hbs` with your own links & socials accounts.
 
 #### Disqus comments
 
