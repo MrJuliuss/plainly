@@ -18,6 +18,6 @@ In `page.hbs and post.hbs` remove this line `<!-- Disqus -->` and paste your Dis
 
 #### Analytics
 
-In `default.hbs` remove this line `<!--  Analytics-->` and paste your Analytics code (from Google, Piwik, others).
+Add your Analytics code (from Google, Piwik, others) in the "Code Injection" part of the administration.
 
 Inspired by [Sydney](https://github.com/seanosaur/sydney)
