@@ -1,6 +1,6 @@
 ## Plainly
 
-A bootstrap 3 theme for Ghost
+A bootstrap 3 theme for Ghost 1.*
 
 [Demo](http://mrjuliuss.net)
 
