@@ -5,7 +5,7 @@
             <header>
                 <h1>{{{title}}}</h1>
                 <h5>
-                    <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD/MM/YYYY"}}</time>
+                    Author: {{author}} - <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD/MM/YYYY"}}</time>
                 </h5>
                 {{#foreach tags}}
                     <span class="label label-primary"><a href="{{url}}"><i class="fa fa-tag"></i> {{name}}</a></span>
@@ -17,9 +17,12 @@
 
                 <hr />
                 <div class="social-buttons">
-                    <a href="https://twitter.com/share?text={{{title}}}" class="popup fa fa-twitter btn btn-info"></a>
-                    <a href="https://www.facebook.com/sharer/sharer.php?u={{@blog.url}}{{url}}" class="popup fa fa-facebook btn btn-primary"></a>
-                    <a href="https://plus.google.com/share?url={{@blog.url}}{{url}}" class="popup fa fa-google btn btn-danger"></a>
+                    <a href="https://twitter.com/?status={{encode title}} {{url absolute="true"}}" title="Share On Twitter" target="_blank" class="btn btn-default btn-sm">Twitter</a>
+                    <a href="https://facebook.com/sharer/sharer.php?u={{url absolute="true"}}" title="Share On Facebook" target="_blank" class="btn btn-primary btn-sm">Facebook</a>
+                    <a href="https://plus.google.com/share?url={{url absolute="true"}}" title="Share On Google+" target="_blank" class="btn btn-success btn-sm">Google+</a>
+                    <a href="https://stumbleupon.com/submit?url={{url absolute="true"}}" title="Share On StumbleUpon" target="_blank" class="btn btn-info btn-sm">Stumbleupon</a>
+                    <a href="https://linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}&title={{encode title}}&source={{@blog.title}}" title="Share On LinkedIn" target="_blank" class="btn btn-warning btn-sm">LinkedIn</a>
+                    <a href="https://reddit.com/submit?url={{url absolute="true"}}&title={{encode title}}" title="Share On Reddit" target="_blank" class="btn btn-danger btn-sm">Reddit</a>
                 </div>
             </section>
         {{/post}}
